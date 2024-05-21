@@ -5,6 +5,7 @@ public sealed class Player : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer _renderer;
     [SerializeField] private float _speed = 10;
+
     private PlayerInput _input;
     private ShopItem _skin;
 

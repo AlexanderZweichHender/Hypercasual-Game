@@ -8,7 +8,6 @@ public class LoadingScreen : BaseScreen
 
     private void Start()
     {
-        Debug.Log(SaveService.Money);
         StartCoroutine(LoadMenu());
     }
 

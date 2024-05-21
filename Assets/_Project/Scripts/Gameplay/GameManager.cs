@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
         Timer.OnComplete -= ShowLoseScreen;
     }
 
-
     private void ShowLoseScreen()
     {
         GameScreenStateMachine.Instance.SetScreenState(ScreenState.Lose);  
